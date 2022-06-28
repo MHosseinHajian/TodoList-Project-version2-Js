@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.colors{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    width: 30%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.colors h2{
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.colors div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #e2e2e2;
+}
+
+.inputArea{
+    width: 30%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    padding: 10px;
+}
+
+.inputArea input{
+    padding: 18px 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.inputArea input:focus{
+    outline: 2px solid #c7c7c7 !important;
+}
+
+.todos{
+    width: 30%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    padding: 10px;
+}
+
+.todo{
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.todo:last-child{
+    margin-bottom: 0px;
+}
+
+.options{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.addTodo,.reset{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding:20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+
